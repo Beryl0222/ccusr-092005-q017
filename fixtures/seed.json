@@ -1,0 +1,7 @@
+{
+  "project": "儿童口腔成长随访",
+  "records": [
+    {"id": "child-case-31a", "kind": "oral_case", "age_years": 6, "dentition": "乳牙列期", "observations": ["轻度牙列不齐"], "decision": "随访观察"},
+    {"id": "habit-record-31a-01", "kind": "habit", "case_id": "child-case-31a", "items": ["偏软饮食", "刷牙需协助"], "review_months": 6}
+  ]
+}
