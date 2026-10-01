@@ -3,5 +3,13 @@
   "records": [
     {"id": "child-case-31a", "kind": "oral_case", "age_years": 6, "dentition": "乳牙列期", "observations": ["轻度牙列不齐"], "decision": "随访观察"},
     {"id": "habit-record-31a-01", "kind": "habit", "case_id": "child-case-31a", "items": ["偏软饮食", "刷牙需协助"], "review_months": 6}
-  ]
+  ],
+  "campus_flow": {
+    "activity": {"id": "campus-oral-2026-spring", "school_id": "school-001", "name": "2026年春季校园口腔筛查"},
+    "child": {"id": "child-case-31a", "class_name": "一年级(1)班"},
+    "guardians": [
+      {"id": "guardian-mother-31a", "label": "妈妈", "contact_ref": "sms-gateway://token-aaaa", "scopes": ["参加本次筛查并登记最小信息", "接收本次活动的校园提示"]},
+      {"id": "guardian-father-31a", "label": "爸爸", "contact_ref": "sms-gateway://token-bbbb", "scopes": []}
+    ]
+  }
 }
